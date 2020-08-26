@@ -12,7 +12,7 @@ apiRouter.get("todos/:todo", (req, res) => {
 
 apiRouter.route("/todos")
     .post(addTodo)
-    .get(index);
+    .get(index)
 
 //apiRouter.route("/todos/todoname")
     //.get(sendTodo)
